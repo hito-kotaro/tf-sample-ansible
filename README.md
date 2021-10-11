@@ -1,5 +1,5 @@
 # tf-sample-ansible
-Ansibleハンズオン用の環境を構築するためのテンプレート.EC2を2つ作成する
+Ansibleハンズオン用の環境を構築するためのテンプレート.EC2を2つ作成する.
 
 # Features
 ## aws
