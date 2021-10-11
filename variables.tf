@@ -14,7 +14,7 @@ variable "images" {
     eu-central-1   = "ami-a8221fb5"
     ap-southeast-1 = "ami-68d8e93a"
     ap-southeast-2 = "ami-fd9cecc7"
-    ap-northeast-1 = "ami-cbf90ecb"
+    ap-northeast-1 = "ami-0701e21c502689c31"
     sa-east-1      = "ami-b52890a8"
   }
 }
