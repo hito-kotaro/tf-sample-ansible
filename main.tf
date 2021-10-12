@@ -100,7 +100,7 @@ resource "aws_instance" "ansible" {
   subnet_id                   = aws_subnet.subnet.id
   associate_public_ip_address = "true"
   tags = {
-    Name = "${var.tag_name}-ec2-ansible"
+    Name = "${var.tag_name}-ec2-1"
   }
 }
 
@@ -117,6 +117,6 @@ resource "aws_instance" "web" {
   subnet_id                   = aws_subnet.subnet.id
   associate_public_ip_address = "true"
   tags = {
-    Name = "${var.tag_name}-ec2-web"
+    Name = "${var.tag_name}-ec2-2"
   }
 }
